@@ -1,4 +1,4 @@
-## Your First App
+## Weather Buddy - Rishi Ramesh
 
 A Freshdesk app that displays the weather for the support agent in the Ticket Page. The app also allows an agent to pick an alternate city and a future date (within 5 days) and display the weather for the same.
 
