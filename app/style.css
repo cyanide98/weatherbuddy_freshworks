@@ -1,0 +1,178 @@
+.logo {
+  background: url('freshdesk_logo.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 25px;
+  margin-top: 25px;
+}
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,700,900,300);
+
+.widget-container {
+/*   border: 5px solid #eceff1; */
+  margin: 0 auto;
+  color: black;
+}
+.dayselect{
+	color:black;
+	width:100%;
+}
+.app-details {
+	height: 480px !important;
+}
+#ember2038{
+	height:100% !important;
+}
+/* Widget 4 Quarter Division here */
+
+.top-left {
+  /*   background-color:red; */
+  padding: 3px 0 0 17px;
+  display: inline-block;
+}
+
+.top-right {
+
+  /*   background-color: blue; */
+  float: right;
+  padding: 55px 0 0 0;
+}
+
+.bottom-left {
+
+  /*   background-color:orange; */
+  float: left;
+  margin: 0;
+  padding: 40px 0 0 50px;
+}
+
+.bottom-right {
+
+  /*   background-color: brown; */
+  float: right;
+  padding: 25px 0 0 60px;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+  padding: 0;
+  margin-top: 6px !important;
+  margin-bottom: 2px !important;
+  font-size:12px;
+}
+input, select{
+	width: 75% !important;
+}
+
+
+/* Top-left Div CSS */
+
+#city {
+  font-weight: 500;
+  font-size: 12px;
+}
+
+#day {
+  font-weight: 700;
+  font-size: 12px;
+  margin-top: 1px;
+}
+
+#date {
+  font-weight: 500;
+  font-size: 12px;
+  margin-top: 1px;
+}
+
+#time {
+  font-weight: 400;
+  font-size: 12px;
+  margin-top: 1px;
+}
+.top-left > a {
+  text-decoration: none;
+  color: white;
+}
+
+.top-left > a:hover {
+  color: #b0bec5;
+}
+
+
+/* Top-Right Div CSS */
+
+#weather-status {
+  font-size: 12px;
+  font-weight: 300;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.top-right > img {
+  width: 120px;
+  height: 120px;
+  display: block;
+  margin: 15px auto 0 auto;
+}
+
+
+/* Horizontal-Half-divider */
+
+.horizontal-half-divider {
+  width: 100%;
+  height: 3px;
+  margin-top: -5px;
+  background-color: #263238;
+}
+
+.vertical-half-divider {
+  width: 3px;
+  position: absolute;
+  height: 167px;
+  background-color: #263238;
+  float: right;
+  display: inline-block;
+  padding: 0;
+}
+
+
+/* Bottom-left CSS */
+
+#temperature,
+#celsius,
+#temp-divider,
+#fahrenheit {
+  display: inline;
+  vertical-align: middle;
+  
+}
+
+#temperature {
+  font-size: 12px;
+  font-weight: 500;
+  margin-right: 5px;
+}
+
+#celsius {
+	font-size: 12px;
+  margin-right: 10px;
+}
+
+#fahrenheit {
+  margin-right: 5px;
+  color: #b0bec5;
+}
+
+#celsius,
+#temp-divider,
+#fahrenheit {
+  font-size: 12px;
+  font-weight: 500;
+}
+
+#celsius:hover,
+#fahrenheit:hover {
+  cursor: pointer;
+}

@@ -1,0 +1,9 @@
+{
+    "api_key": {
+        "display_name": "API Key",
+        "description": "Please API Key",
+        "type": "text",
+        "required": true,
+		"secure": true
+      }
+}
